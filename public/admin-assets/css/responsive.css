@@ -1,0 +1,231 @@
+/*================================
+Template Name: FnasClub Backend
+Author: Beno darry
+Author website: http://codegama.com/
+Version: 1.0
+================================== */
+
+@media (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1440px) {}
+
+@media (max-width: 1199.98px) {
+    .graph-scroll-body{
+        overflow: auto;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .graph-scroll-body{
+        overflow: auto;
+    }
+    .view-post-sec .heading-elements-toggle{
+        display: none;
+    }
+    table.dataTable td, table.dataTable th{
+        white-space: nowrap;
+    }
+    .report-post-sec .heading-elements-toggle{
+        display: none;
+    }
+    .revenue-dashboard-sec .heading-elements-toggle{
+        display: none;
+    }
+    .post-payment-sec .heading-elements-toggle{
+        display: none;
+    }
+    .user-tips-sec .heading-elements-toggle{
+        display: none;
+    }
+    .user-subscription-sec .heading-elements-toggle{
+        display: none;
+    }
+    .user-wallet-sec .heading-elements-toggle{
+        display: none;
+    }
+    .user-document-verify-sec .heading-elements-toggle{
+        display: none;
+    }
+    .heading-elements-toggle{
+        display: none;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .flex-sm-scroll{
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: auto;
+        width: 100%;
+    }
+    .dashboard-sec .block-nav-pills .wrapper{
+        flex-direction: column;
+        margin-left: unset!important;
+        text-align: center;
+        padding:1em 0;
+    }
+
+    .dashboard-sec .block-nav-pills .ml-auto{
+        margin: auto;
+    }
+
+    .dashboard-sec .card-header{
+        padding:0;
+    }
+
+    .dashboard-sec .block-nav-pills .list-block{
+       flex-direction: column;
+    }
+
+    .dashboard-sec .block-nav-pills .list-block-1{
+        flex-direction: column;
+     }
+
+     .dashboard-sec .block-nav-pills .list-block-1 .block-sm{
+         padding: 1em 0;
+     }
+
+    .col-padding-zero-sm-right{
+        padding-right: 0;
+    }
+    .user-view-sec .card-header .heading-elements{
+        right: 0;
+    }
+    .resp-mrg-btm-xs {
+        margin-bottom: 12px;
+    }
+    .resp-float-unset {
+        float: unset;
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: auto;
+    }
+    table.dataTable td, table.dataTable th{
+        white-space: nowrap;
+    }
+
+    .blocked-user-sec .heading-elements-toggle{
+        display: none;
+    }
+
+    .user-document-sec .heading-elements-toggle{
+        display: none;
+    }
+    .dataTables_wrapper table {
+        display: block;
+        width: 100%;
+        min-height: 0.01%;
+        overflow-x: auto;
+    }
+    .content-header-title {
+        padding-top: 1.5em;
+    }
+    .view-post-sec .card-title {
+        display: none;
+    }
+    .view-post-sec .heading-elements-toggle{
+        display: none;
+    }
+
+    .view-post-sec .card-header {
+        padding: 2.2rem 1.5rem;
+    }
+    div.fx-tab-menu{
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+    }
+    div.fx-tab-menu div.list-group{
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: auto;
+        flex-direction: row;
+    }
+    div.fx-tab-menu div.list-group>a.active:after{
+        display: none;
+    }
+    .reps-tab-flex{
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow: auto;
+    }
+    .reps-tab-flex .nav-item a.nav-link.active{
+        border-bottom: 3px solid #f4a640;
+        border-top: 0!important;
+        border-left: 0;
+        border-right: 0;
+    }
+    .resp-marg-top-xs{
+        margin-top: 1em;
+    }
+    html body .content .content-wrapper .content-header-title{
+        text-align: right;
+    }
+    .user-profile-view-sec .user-view-padding .table th, .user-view-padding .table td{
+        white-space: nowrap;
+    }
+    .user-profile-view-sec .media.profil-cover-details{
+        display: block!important;
+        text-align: center;
+    }
+
+    .user-profile-view-sec .media .media-body{
+        padding-right: 0!important;
+        padding-left: 0!important;
+        padding-top: 1.5em!important;
+    }
+
+    .user-profile-view-sec .card.profile-with-cover{
+        margin-bottom: 0!important;
+    }
+
+    .user-profile-view-sec .media-left{
+        padding-left: 0!important;
+    }
+
+    .user-profile-view-sec .media .media-body h3{
+        margin-bottom: 0.8rem;
+    }
+    .user-document-verify-sec .heading-elements{
+        top:41px;
+    }
+    .breadcrumb{
+        font-size: 0.85rem;
+    }
+    .card-margin-btm-zero {
+        margin-bottom: 0!important;
+    }
+    .settings-sec .fx-tab .img-thumbnail{
+        margin-bottom: 1.3em;
+    }
+    .post-view-personal-bio-sec .post-image {
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .post-view-personal-bio-sec ul {
+        padding-left: 0;
+    }
+    .table th, .table td{
+        white-space: nowrap;
+    }
+    .chart-container{
+        padding:0;
+        display: block;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 575.98px) {}

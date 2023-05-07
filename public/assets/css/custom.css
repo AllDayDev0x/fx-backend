@@ -1,0 +1,88 @@
+.verified-badge-text {
+  color: #d742a2;
+  font-size: 12px;
+  font-weight: 800;
+}
+.wh-32 {
+  width: 32px !important;
+  height: 32px !important;
+}
+.wh-16 {
+  width: 16px !important;
+  height: 16px !important;
+}
+.user-follow:hover,
+.user-follow:active,
+.user-follow:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+  border-color: #357ebd !important;
+}
+.s-icon {
+  margin-right: 3rem !important;
+}
+
+.s_icon_16 {
+  width: 32px;
+  height: 32px;
+  margin-right: 2px;
+  object-fit: cover;
+}
+.mb-10 {
+  margin-bottom: 2rem;
+}
+
+.SuccessNotify {
+  background: #5c5c5d;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.SuccessNotify-message {
+  letter-spacing: 0.7px;
+  font-size: 1.4rem;
+  max-height: 150px;
+  overflow-y: auto;
+  border-top: none;
+  padding: 10px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-font-smoothing: antialiased;
+}
+
+.SuccessNotify-Close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 38px;
+  height: 38px;
+  font-size: 0.7rem;
+  line-height: 38px;
+  text-align: center;
+  text-shadow: none;
+  color: black;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.SuccessNotify-Close::before {
+  transform: rotate(45deg);
+}
+.SuccessNotify-Close::after {
+  position: absolute;
+  left: 18px;
+  top: 10px;
+  content: " ";
+  height: 14px;
+  width: 2px;
+  background-color: currentColor;
+}
+
+.outline-custom {
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+  background-color: transparent !important;
+}
+

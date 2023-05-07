@@ -1,0 +1,879 @@
+.dark-mode {
+    background-color: #222;
+    color: var(--secondary-color);
+}
+
+.dark-mode .home-screen.home-sec a {
+    color: var(--secondary-color);
+}
+
+.dark-mode .user-name-post {
+    color: var(--quinary-color);
+}
+
+.dark-mode .category-list-sec .slick-prev:before {
+    color: var(--secondary-color);
+}
+
+.dark-mode .category-list-sec .slick-next:before {
+    color: var(--secondary-color);
+}
+
+.dark-mode .slick-prev:before {
+    color: var(--secondary-color);
+}
+
+.dark-mode .slick-next:before {
+    color: var(--secondary-color);
+}
+
+.dark-mode .category-list-sec li {
+    background-color: #333333;
+}
+
+.dark-mode .category-list-sec .category-sec li .media-body h5 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .search-box {
+    background-color: #333333;
+}
+
+.dark-mode .search-text {
+    color: var(--secondary-color);
+}
+
+.dark-mode .search-box:hover .search-btn {
+    background-color: #222222;
+}
+
+.dark-mode .search-box:focus .search-btn {
+    background-color: #222222;
+}
+
+.dark-mode .search-dropdown-sec {
+    background-color: #222222;
+}
+
+.dark-mode .search-dropdown-list-sec .search-body .search-content h5 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .text-muted {
+    color: var(--quaternary-color) !important;
+}
+
+.dark-mode .dropdown-menu.show a {
+    color: var(--tertiary-color);
+}
+
+.dark-mode span.comment-message {
+    color: var(--quinary-color);
+}
+
+.dark-mode .reply-message p {
+    color: var(--quinary-color);
+}
+
+.dark-mode .comment-box {
+    background-color: #333333;
+}
+
+.dark-mode .reply-text-field .hasFocus {
+    background-color: #3e3e3e;
+    color: var(--secondary-color);
+}
+
+.dark-mode .explore-tab-sec .nav-link {
+    background-color: #333333;
+}
+
+.dark-mode .form-group.explore-location-dropdown .form-control {
+    background-color: #333333;
+    color: var(--secondary-color);
+}
+
+.dark-mode .live-streaming-post-user-details h4 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .video-list-sec .video-list-card {
+    background-color: #333333;
+}
+
+.dark-mode .video-list-user-info .username {
+    color: var(--secondary-color);
+}
+
+.dark-mode .bg-white {
+    background-color: #222222 !important;
+}
+
+.dark-mode .trans-table-sec .trans-table td {
+    background-color: #222222;
+    color: var(--quinary-color) !important;
+}
+
+.dark-mode .trans-table-sec .trans-table {
+    box-shadow: 0 0px 10px rgb(51 51 51 / 50%);
+    background-color: #333333;
+}
+
+.dark-mode .footer-section {
+    background-color: #1c1c1c;
+}
+
+.dark-mode .cta-text h4 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .cta-text span {
+    color: var(--quaternary-color);
+}
+
+.dark-mode .footer-widget-heading h3 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .footer-text p {
+    color: #fff;
+}
+
+.dark-mode .create-post-box {
+    box-shadow: 0 0px 10px rgb(51 51 51 / 50%);
+    background-color: transparent;
+}
+
+.dark-mode .create-post .bookmarkes-list.notify-title {
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .searchMentions {
+    background-color: #333333;
+}
+
+.dark-mode .create-post-box .multiselect-container {
+    background-color: #333333;
+}
+
+.dark-mode .optionListContainer {
+    background-color: #333333;
+}
+
+.dark-mode .create-post-box .form-control {
+    background-color: #333333;
+    color: var(--secondary-color);
+}
+
+.dark-mode .user-chat-box {
+    background-color: #333333;
+}
+
+.dark-mode .user-chat-room-sec {
+    background-color: #222222;
+}
+
+.dark-mode .user-chat-msg {
+    color: var(--secondary-color);
+}
+
+.dark-mode .chat-list-search-sec .form-control {
+    background-color: #222222 !important;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .chat-list-search-sec .input-group-text {
+    background-color: #222222 !important;
+    color: var(--secondary-color) !important
+}
+
+.dark-mode .chat-list-search-sec .input-group {
+    background: #222;
+    border-radius: 12px;
+}
+
+.dark-mode .user-list-card.active {
+    background-color: #222;
+}
+
+.dark-mode .has-advanced-upload .form-control {
+    background-color: #393939 !important;
+    border-color: transparent !important;
+    color: var(--secondary-color);
+}
+
+.dark-mode .user-chat-main-wrapper-footer .input-group-text {
+    background-color: #333 !important;
+    border-color: transparent !important;
+}
+
+.dark-mode .listing-tab .tab .nav-tabs li a:hover,
+.dark-mode .tab .nav-tabs li.active a {
+    color: var(--secondary-color) !important;
+    background-color: transparent;
+}
+
+.dark-mode .notification-page .bookmarkes-list.bookmarks-right-side .notify-title {
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode span.post-user-name {
+    color: var(--secondary-color);
+}
+
+.dark-mode .story-text h4 {
+    color: var(--secondary-color);
+}
+
+.dark-mode span.post-user-notify {
+    color: #fff;
+}
+
+.dark-mode .drawer__wrapper {
+    background-color: #222;
+}
+
+.dark-mode .pull-left.side-user-head li a {
+    color: var(--secondary-color);
+}
+
+.dark-mode .pull-left.side-user-head span.fans-follow {
+    color: var(--quaternary-color) !important;
+}
+
+.dark-mode .pull-left.side-user-head h3.g-user-name {
+    color: var(--secondary-color);
+}
+
+.dark-mode .sidebar-menus-item i,
+.dark-mode .sidebar-menus-item img,
+.dark-mode .svg-clone {
+    /* color: #fff !important; */
+    filter: invert(1);
+}
+
+.dark-mode .listing-tab .tab .tab-content {
+    background-color: transparent;
+}
+
+.dark-mode .listing-tab .tab .nav-tabs li a {
+    background-color: transparent;
+}
+
+.dark-mode .follower-user-name {
+    color: var(--secondary-color);
+}
+
+.dark-mode .swiper-btn-fav {
+    background-color: #333333;
+    color: var(--quinary-color);
+}
+
+.dark-mode .post-number span {
+    color: var(--secondary-color);
+}
+
+.dark-mode .flex-nav-link span {
+    color: var(--secondary-color);
+}
+
+.dark-mode .dashboard-box {
+    background-color: #222;
+    box-shadow: none;
+}
+
+.dark-mode .vertical-menu a.active {
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .lists .bookmarkes-list.bookmarks-right-side a.bookmarkes-list {
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .user-lists h3 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .edit-profile .form-control {
+    background-color: #000;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .delete-account-sec .card {
+    background-color: transparent;
+}
+
+.dark-mode .add-bank-box {
+    background-color: #222222;
+}
+
+.dark-mode .back-button {
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .add-bank-box .form-control {
+    background-color: #333333;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .add-bank-box .custom-control-label::before {
+    background-color: #333333;
+}
+
+.dark-mode .payment-tabs-card {
+    background-color: #222222;
+}
+
+.dark-mode .payment-tabs-card h2 {
+    color: var(--quaternary-color);
+}
+
+.dark-mode .payment-tabs-card .payment-tabs-content tr {
+    background-color: #333;
+}
+
+.dark-mode .payment-tabs-card .payment-tabs-content td {
+    color: var(--secondary-color);
+}
+
+.dark-mode .document-upload-sec .document-upload-box-1 {
+    background-color: #222222;
+    border: 5px dashed rgb(0 0 0 / 50%);
+}
+
+.dark-mode .referrals-box {
+    background-color: #222222;
+}
+
+.dark-mode .referrals-card {
+    border-bottom: 1px dashed rgb(0 0 0 / 50%);
+}
+
+.dark-mode .referrals-email .form-control {
+    background-color: #333333;
+}
+
+.dark-mode .referrals-box .input-group-text {
+    background-color: #333333 !important;
+}
+
+.dark-mode .how-its-work-card {
+    background: #222;
+}
+
+.dark-mode .how-its-work-info h5 {
+    color: var(--quaternary-color);
+}
+
+.dark-mode .card-list-box {
+    background-color: #222222;
+}
+
+.dark-mode .card-list-box h5 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .static-box {
+    background-color: #222222;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .static-box p {
+    color: var(--secondary-color) !important;
+    background-color: transparent !important;
+}
+
+.dark-mode .static-box h1 {
+    background-color: transparent !important;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .category-content-list .title {
+    color: var(--secondary-color);
+}
+
+.dark-mode .category-content-list .category-info-details h5 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .ecom-featured-sec .title-main {
+    color: var(--secondary-color);
+}
+
+.dark-mode .product-title h3 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .ecom-featured-price-sec {
+    color: var(--secondary-color);
+}
+
+.dark-mode .quick-view-modal-info h4 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .quick-view-modal-price-sec {
+    color: var(--secondary-color);
+}
+
+.dark-mode .availability-sec h5 span {
+    color: var(--secondary-color);
+}
+
+.dark-mode .order-list-sec .table tbody td {
+    background-color: #333;
+    border-bottom: 4px solid #464646;
+}
+
+.dark-mode .order-list-sec .table {
+    color: var(--secondary-color);
+}
+
+.dark-mode .order-list-sec .table tbody td .email span:last-child {
+    color: var(--secondary-color);
+}
+
+.dark-mode .order-transaction-sec .table tbody td {
+    background-color: #333;
+}
+
+.dark-mode .order-transaction-sec .table {
+    color: var(--secondary-color);
+}
+
+.dark-mode .add-product-sec label {
+    color: var(--secondary-color);
+}
+
+.dark-mode .add-product-sec .form-control {
+    background-color: #333;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .add-product-sec .custom-select {
+    background-color: #333;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .add-product-sec .form-control::placeholder {
+    color: var(--secondary-color);
+}
+
+.dark-mode .uploader label {
+    background-color: #333;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .session-card {
+    background-color: #333;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .session-card .session-left-sec h4 {
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .dropdown-menu.dropdown-menu-right {
+    background-color: #333;
+}
+
+.dark-mode .dropdown-menu.dropdown-menu-right li a {
+    color: var(--secondary-color);
+}
+
+.dark-mode .product-list-sec .table tbody th,
+.dark-mode .product-list-sec .table tbody td {
+    background: #333;
+    color: var(--secondary-color);
+    border-bottom: 4px solid #464646;
+}
+
+.dark-mode .product-list-sec .table tbody td .email span {
+    color: var(--secondary-color);
+}
+
+.dark-mode .product-list-sec .table tbody td .email p {
+    color: var(--secondary-color);
+}
+
+.dark-mode button.close {
+    background-color: #fff !important;
+    opacity: 1;
+}
+
+.dark-mode button.close i {
+    opacity: 0.8;
+}
+
+.dark-mode .order-transaction-sec .table tbody th,
+.dark-mode .order-transaction-sec .table tbody td {
+    border-bottom: 4px solid #464646;
+}
+
+.dark-mode .ecom-sec::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+}
+
+.dark-mode .banner-content h4 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .banner-content h3 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .banner-content p {
+    color: var(--secondary-color);
+}
+
+.dark-mode .wallet-sec {
+    box-shadow: 0 0px 10px rgb(51 51 51 / 50%);
+    background-color: #333333;
+}
+
+.dark-mode .wallet-header-card {
+    background-color: #222222;
+}
+
+.dark-mode .wallet-header-card h5 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .wallet-sec .edit-save .send-btn-white {
+    background-color: #222222 !important;
+    color: #fff !important;
+}
+
+.dark-mode .single-profile-banner-img-sec::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+}
+
+.dark-mode .single-profile-banner-img-sec {
+    position: relative;
+}
+
+.dark-mode .terms-link {
+    color: var(--quaternary-color) !important;
+}
+
+.dark-mode .edit-profile-photo::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+}
+
+.dark-mode .edit-profile-photo {
+    position: relative;
+}
+
+.dark-mode .edit-profile-photo .cover::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    z-index: 9;
+}
+
+.dark-mode .inuput-help {
+    position: relative;
+}
+
+.dark-mode .edit-profile-photo .cover .image-wrapper {
+    z-index: 99;
+}
+
+.dark-mode .edit-profile-photo .profile-pic {
+    z-index: 99;
+}
+
+.dark-mode .product-list-sec .view {
+    background-color: transparent !important;
+}
+
+.dark-mode .product-list-action-icons button.close {
+    background-color: transparent !important;
+}
+
+.dark-mode .product-list-sec .edit {
+    background-color: transparent !important;
+}
+
+.dark-mode .empty-comment input {
+    background-color: transparent !important;
+}
+
+.dark-mode .new-home-box {
+    background-color: #222;
+}
+
+.dark-mode .sibebar-header-sec h4 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .sidebar-links ul li a {
+    color: var(--secondary-color);
+}
+
+.dark-mode .user-info-list ul li,
+.dark-mode .profile-subscription-btn {
+    background-color: #000 !important;
+}
+
+.dark-mode .user-info-list ul li a span {
+    color: var(--secondary-color);
+}
+
+.dark-mode .new-settings-box {
+    background-color: #222;
+}
+
+.dark-mode .new-settings-sidebar-link-sec h4 {
+    color: var(--primary-color);
+}
+
+.dark-mode .new-settings-sidebar-link-list li a {
+    color: var(--secondary-color);
+}
+
+.dark-mode .new-settigs-sidebar-header-card {
+    background-color: #222;
+}
+
+.dark-mode .new-settings-user-info h4 {
+    color: var(--secondary-color);
+}
+
+.dark-mode .settings-personal-info-card {
+    background-color: #222;
+}
+
+.dark-mode .edit-profile-form .form-label {
+    color: var(--secondary-color);
+}
+
+.dark-mode .edit-profile-form .form-control {
+    background-color: #333 !important;
+    color: var(--secondary-color) !important;
+}
+
+.dark-mode .edit-profile-form .input-group .input-group-text {
+    background-color: #333 !important;
+}
+
+.dark-mode .edit-profile-form .input-group .input-group-text {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.dark-mode .settings-subscription-amount-choose .form-label span {
+    color: var(--primary-color);
+}
+
+.dark-mode .amount-display-btn {
+    background-color: #333 !important;
+}
+
+.dark-mode .close-all-session-btn {
+    background-color: #222;
+}
+
+.dark-mode .profile-audio-post-card::before {
+    background-color: rgba(35, 35, 35, 0.5);
+}
+
+.dark-mode .profile-video-post-card::before {
+    background-color: rgba(35, 35, 35, 0.5);
+}
+
+.dark-mode .react-loading-skeleton {
+    --base-color: #333;
+    --highlight-color: #222;
+}
+
+.profile-all-post-box a {
+    background-color: #333;
+}
+
+.dark-mode .form-control,
+.dark-mode .modal-body {
+    background: #222 !important;
+    color: #fff !important;
+}
+
+.dark-theme-modal .modal-content,
+.dark-theme-modal .modal-body,
+.dark-theme-modal .modal-footer,
+.dark-theme-modal .close-modal-btn {
+    background: #222 !important;
+    color: #fff !important;
+}
+
+.dark-theme-modal .modal-body .pop-username,
+.dark-theme-modal .modal-body label,
+.dark-theme-modal .quick-view-modal-info h4,
+.dark-theme-modal .quick-view-modal-price-sec,
+.dark-theme-modal .availability-sec h5 .text,
+.dark-theme-modal .payment-multiple-card {
+    color: #fff !important;
+    background: #222 !important;
+}
+
+.dark-theme-modal .add-card button, 
+.dark-theme-modal .add-card button:focus,
+.dark-theme-modal .add-card button:active{
+    background: #222 !important;
+}
+
+.dark-theme-modal .payment-method-sec,
+.dark-theme-modal .payment-multiple-box label {
+    background: #111;
+}
+
+.dark-theme-modal .text-dark {
+    color: #777 !important;
+}
+
+.dark-mode .add-icon {
+    color: #ccc !important;
+}
+
+.dark-mode .toggle-mode input:checked+.slider {
+    background-color: #ccc !important;
+}
+
+.dark-mode .slider:before {
+    border-color: #333;
+    background-color: #000;
+}
+
+.dark-mode .notify-item {
+    border-bottom-color: #333;
+}
+
+.dark-mode .tabbable-line>.nav-tabs>li.active {
+    border-bottom-color: #ccc;
+}
+
+.dark-mode .new-profile-store-btn-sec select,
+.dark-mode .new-profile-store-btn-sec .dropdown button {
+    background: #222;
+    color: #fff;
+}
+
+.dark-mode .login-tagline,
+.dark-mode .most-popular-header-sec h4 {
+    color: #fff;
+}
+.dark-mode .main-header{
+    background-color: #222;
+}
+.dark-mode .new-header-tab a span{
+    color: #fff;
+}
+.dark-mode .nav-end-dropdown{
+    color: #fff;
+}
+.dark-mode .tabbable-line>.nav-tabs>li>a{
+    color: #fff;
+}
+.dark-mode .new-home-page-box{
+    background-color: #222;
+    color: #fff;
+}
+.dark-mode .new-feature-story-card{
+    background-color: #333;
+}
+.dark-mode .new-feature-story-item h4{
+    color: #fff;
+}
+.dark-mode .new-feed-display-card{
+    background-color: #333;
+}
+.dark-mode .new-feed-user-details h4{
+    color: #fff;
+}
+.dark-mode .new-feed-user-details a{
+    color: #fff;
+}
+.dark-mode .new-feed-search-sec{
+    background-color: #333;
+}
+.dark-mode .new-feed-suggestions-trending-sec{
+    background-color: #333;
+}
+.dark-mode .new-feed-suggestion-header h4{
+    color: #fff;
+}
+.dark-mode .new-feed-user-btn-sec .sent-tip-btn span{
+    color: #fff;
+}
+.dark-mode .new-feed-footer-action-left-sec .new-feed-wishlist-btn span{
+    color: #fff;
+}
+.dark-mode .new-feed-post-description-sec p{
+    color: #fff;
+}
+.dark-mode .new-feeds-liked-by-users h5{
+    color: #fff;
+}
+.dark-mode .new-feature-story-sec .slick-prev{
+    background-color: #222 !important;
+}
+.dark-mode .new-feature-story-sec .slick-next{
+    background-color: #222 !important;
+}
+.dark-mode .new-feed-suggestion-action-btn-sec .icon-btn i{
+    color: #fff;
+}
+.dark-mode .new-single-page-box{
+    background-color: #222;
+}
+.dark-mode .new-single-post-view-header{
+    background-color: #2f2f2f;
+}
+.dark-mode .new-single-post-view-body{
+    background-color: #333;
+}
+.dark-mode .new-single-post-view-footer .new-feed-footer-action-btn-sec{
+    background-color: #2f2f2f;
+}
+.dark-mode .new-single-post-comments-input-sec{
+    background-color: #333;
+}
+.dark-mode .footer-widget ul li a{
+    color: #fff;
+}
+.dark-mode .explore-tab-sec{
+    background-color: #222;
+}
+.dark-mode .category-listing-card{
+    background-color: #333;
+}
+.dark-mode .category-listing-info h4{
+    color: #fff;
+}
+.dark-mode label.edit-input-label{
+    color: #fff;
+}
+.dark-mode span.post-user-notify-date{
+    color: #ddd;
+}

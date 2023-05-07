@@ -1,0 +1,480 @@
+/*/*================================
+Template Name: FansForX
+Author: Beno Darry
+Author website: 
+Version: 7.0
+================================== */
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (max-width: 1199.98px) {
+    .most-popular-live-box{
+        grid-template-columns: repeat(3, 1fr)!important;
+    }
+    .live-streaming-store-product-box{
+        grid-template-columns: repeat(3,1fr)!important;
+    }
+    .live-streaming-post-box{
+        grid-template-columns: repeat(3,1fr)!important;
+    }
+    .live-streaming-recomended-for-you-box {
+        grid-template-columns: repeat(5,1fr)!important;
+    }
+
+    /*Video Audio Call CSS*/
+    .video-call-chat-header-sec{
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center!important;
+        gap: 1em;
+    }
+    .comment-profile{
+        grid-template-columns: 300px auto!important;
+    }
+
+    /* New Chat CSS*/
+
+    .new-chat-list-sec{
+        padding-right: 1em!important;
+    }
+    .new-chat-user-info{
+        padding-left: 1em!important;
+    }
+    .audio-total-count-card:before{
+        right: -20px!important;
+    }
+    .new-chat-user-media-box{
+        grid-template-columns: repeat(2,1fr)!important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .most-popular-live-box{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+    .live-streaming-header-sec{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .live-streaming-banner-sec{
+        height: 30em!important;
+    }
+    .live-streaming-sec{
+        margin-top: 0!important;
+    }
+    .live-streaming-user-card-right{
+       display: none;
+    }
+    .live-streaming-user-card-left{
+        width: 100%!important;
+    }
+    .live-streaming-started-info{
+        display:none;
+    }
+
+    .mobile-view-comment-sec{
+        display: flex!important;
+        align-items: center;
+        gap:0.5em;
+    }
+    .live-streaming-bg-img{
+        height: 30em!important;
+    }
+     /*Video Audio Call CSS*/
+
+    .video-call-card-left{
+        width: 100%!important;
+        
+    }
+    .video-call-card-right{
+        display:none;
+    }
+
+    .audio-call-chat-left-sec{
+        width: 100%!important;
+        padding-left: 2em!important;
+    }
+
+    .audio-call-chat-right-sec{
+        display:none;
+    }
+
+    .video-call-mobile-sec{
+        display: flex!important;
+        align-items: center;
+        gap:0.5em;
+        justify-content: flex-end;
+        margin-top: 2em;
+        margin-right: 2em;
+    }
+   .video-call-chat-header-sec {
+        justify-content: space-between!important;
+        flex-direction: row!important;
+        align-items: flex-end!important;
+   }
+   .audio-call-card-center .back-btn-sec{
+    left: 20px!important;
+    top: 20px!important;
+   }
+   /*Home Page CSS*/
+
+   .new-home-page-right{
+    display: none;
+   }
+   .new-home-page-left{
+    padding-right: 0!important;
+    width:100%!important;
+   }
+   .mobile-visible{
+        display: block!important;
+    }
+    .new-single-page-box{
+        flex-direction: column;
+        gap:3em;
+    }
+    .new-single-page-left{
+        width: 100%!important;
+        padding-right: 0!important;
+    }
+    .new-single-page-left .awssld {
+        height: 50vh!important;
+    }
+    .new-single-page-right{
+        width: 100%!important;
+    }
+
+    /*New Chat CSS*/
+    .new-chat-user-info{
+        display: none;
+        position: fixed;
+        background: #fff;
+        left: 0;
+        right: 0;
+        top: 48px;
+        bottom: 0;
+        z-index: 9999;
+        width: 100%!important;
+        padding: 2em!important;
+        padding-top: 4em!important;
+        overflow-y: auto;
+        height: 100%;
+    }
+    .audio-total-count-card:before {
+        right: -100px!important;
+    }
+    .new-chat-list-sec {
+        width: 35%!important;
+    }
+    .new-chat-room-sec {
+        width: 65%!important;
+    }
+    .new-chat-user-media-box {
+        grid-template-columns: repeat(3,1fr)!important;
+    }
+    .new-chat-user-media-img{
+        height: 20em!important;
+    }
+    .new-chat-user-info-cover-img-sec{
+        height: 20em!important;
+    }
+    .close-icon-mobile{
+        display:block!important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .live-streaming-user-card-right{
+        display: none;
+     }
+     .live-streaming-user-card-left{
+         width: 100%!important;
+     }
+    .most-popular-live-box{
+        padding: 1em 0em!important;
+        grid-template-columns: repeat(1, 1fr)!important;
+    }
+    .live-streaming-banner-sec{
+        padding:0 1em!important;
+    }
+    .most-popular-header-sec{
+        padding:1em 0em!important;
+    }
+    .resp-mrgn-btm-xs{
+        margin-bottom: 2em;
+    }
+    .live-streaming-user-card-left{
+        padding-left: 2em!important;
+    }
+    .live-streaming-free-user-sec{
+        margin-top: 0!important;
+    }
+    .live-streaming-header-1-sec{
+        flex-direction: column;
+        align-items: flex-start!important;
+        gap: 1em;
+    }
+    .live-streaming-bg-img{
+        height: 25em!important;
+    }
+    .live-streaming-store-product-box{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+    .live-streaming-store-product-img{
+        height: 16em!important;
+    }
+    .live-streaming-store-product-info-card{
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: flex-start!important;
+        justify-content: flex-start!important;
+    }
+    .live-streaming-stock-sec{
+        display: none;
+    }
+    .live-streaming-post-box{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+
+    .live-streaming-post-img {
+       height: 15em!important;
+    }
+    .live-streaming-recomended-for-you-box{
+        grid-template-columns: repeat(3, 1fr)!important;
+    }
+
+    .live-streaming-desc p{
+        display: none;
+    }
+
+    .live-streaming-started-info{
+        display:none;
+    }
+
+    .mobile-view-comment-sec{
+        display: flex!important;
+        align-items: center;
+        gap:0.5em;
+    }
+    .live-streaming-modal-action-btn-sec ul{
+        display:flex;
+        align-items: center;
+        gap:0.5em;
+        margin-bottom: 0;
+    }
+    .live-streaming-modal-action-btn-sec ul li{
+        margin-top: 0;
+    }
+     /*Video Audio Call CSS*/
+     .video-call-sec{
+        margin-top: 0!important;
+    }
+    .video-call-card-left{
+        width: 100%!important;
+        
+    }
+    .video-call-card-right{
+        display:none;
+    }
+    .video-call-card{
+        margin-top: 2em!important;
+    }
+
+    .video-call-card .back-btn-sec{
+        left: 15px!important;
+        top: 15px!important;
+    }
+    .video-call-user-img-sec .video-call-user-img{
+        right: 15px!important;
+        top: 15px!important;
+        width: 100px!important;
+        height: 130px!important;
+    }
+    .video-call-send-tip-icon {
+        display: none;
+    }
+    .video-call-mobile-sec{
+        display:flex;
+        align-items:flex-end;
+        justify-content: flex-end;
+    }
+    .video-call-bg-img {
+        height: 100vh!important;
+    }
+    .audio-call-card{
+        margin-top: 2em!important;
+    }
+    .audio-call-connected-box{
+        top: 50px!important;
+        grid-template-columns: repeat(1, 1fr)!important;
+    }
+    .audio-call-user-img{
+        height: 6em!important;
+    }
+    .audio-call-send-tip-icon{
+        display: none;
+    }
+    .audio-call-connected-icon{
+        width: 4em;
+    }
+    .audio-call-sec{
+        margin-top: 0!important;
+   }
+   .audio-call-chat-sec{
+        margin-top: 0!important;
+   }
+   /*Home Page CSS*/
+   .new-home-page-sec{
+    margin-top: 0!important;
+   }
+   .new-feed-header-sec {
+    padding: 1em!important;
+   }
+   .new-feed-user-img {
+    width: 4em!important;
+    height: 4em!important;
+   }
+   .new-feed-user-info{
+    gap:1em!important;
+   }
+   .new-feed-user-details h4{
+    font-size: 1.5em!important;
+   }
+   .new-feed-user-details a {
+    font-size: 1.3em!important;
+   }
+   .new-feed-user-btn-sec{
+    gap:2em!important;
+   }
+   /* .new-feed-post-img{
+    height: 22em;
+    object-fit: contain;
+    width: 100%;
+   } */
+   .feed-post-dropdown .dropdown-menu{
+        min-width: 200px;
+        transform: translate(-200px, 35px) !important;
+   }
+   .mobile-visible{
+        display: block!important;
+   }
+   .new-single-page-sec{
+    margin-top: 0!important;
+    padding: 0 0em!important;
+   }
+   .fancybox__toolbar{
+    top:0!important;
+   }
+   .comment-profile {
+        grid-template-columns: 250px auto!important;
+    }
+    .comment-profile-details{
+        max-width: 250px;
+    }
+    .view-reply-sec{
+        max-width: unset!important;
+        padding: 1.5em 2em 0!important;
+    }
+    .new-ecom-search-bar{
+        grid-template-columns: 100%!important;
+    }
+    /*New Chat CSS*/
+    .new-chat-room-sec.mobile-hide{
+        display: none;
+    }
+    .new-chat-room-sec.webiste-hide{
+        display:block!important;
+        width: 100%!important;
+    }
+    .new-chat-list-sec {
+        width: 100%!important;
+    }
+    .new-chat-sec{
+        padding-top: 0!important;
+    }
+    .new-chat-list-sec{
+        padding-left: 1em!important;
+    }
+    .new-chat-room-left-msg-card{
+        flex-direction: column!important;
+        gap: 1em;
+    }
+    .new-chat-room-right-msg-card{
+        flex-direction: column!important;
+        align-items: flex-end!important;
+        gap: 1em;
+    }
+    .uploaded-chat-room-multiple-img{
+        height: 7em!important;
+    }
+    .uploaded-chat-room-single-video{
+        height: 7em!important;
+    }
+    .uploaded-chat-room-single-img{
+        height: 7em!important;
+    }
+    .uploaded-chat-room-video-icon {
+        max-width: 2em!important;
+    }
+    .uploaded-chat-room-audio-img {
+        height: 3em!important;
+    }
+    .mobile-new-chat-info .new-chat-user-info{
+        top:0!important;
+        display:block!important;
+    }
+    .audio-total-count-card:before {
+        right: -35px!important;
+    }
+    .close-icon-mobile{
+        display:block!important;
+        position: absolute;
+        top: 6px;
+        right: 20px;
+        z-index: 99999;
+    }
+    .close-icon-mobile .icon-close-img{
+        background-color: transparent!important;
+        border: 0!important;
+        padding: 0!important;
+    }
+    .close-icon-mobile .close-icon{
+        width: 2.5em;
+    }
+    .new-chat-user-info-cover-img-sec {
+        height: 15em!important;
+    }
+    .new-chat-user-media-img {
+        height: 11em!important;
+    }
+    .chat-upload-modal .nav.nav-pills .nav-item{
+        width: 80px!important;
+    }
+    .upload-multiple-img-box {
+        grid-template-columns: repeat(2,1fr)!important;
+    }
+    .upload-amount-form{
+        flex-direction: column!important;
+        align-items: flex-start!important;
+    }
+    .video-audio-call-request-sec{
+        margin-top: 1.5em!important;
+    }
+    .video-audio-call-request-tabs-card .nav-pills .nav-link{
+        padding: 1em 1.5em!important;
+    }
+    .video-audio-call-request-tabs-card .nav-pills .nav-item:last-child .nav-link{
+        margin-right: 0;
+    }
+    .video-audio-call-request-tabs-card .nav{
+        justify-content: center;
+        align-items: center;
+    }
+}

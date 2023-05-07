@@ -1,0 +1,79 @@
+### Live Video: 
+
+1. Connect live streaming with socket 
+
+Event: livestream-connect
+
+room: livestream_{live_streaming_unique_id}
+
+2. Send message
+
+Event: livestream-message-broadcast
+
+Parameters: 
+
+viewer_id
+
+live_video_id
+
+live_user_id
+
+message
+
+sender_name
+
+sender_username
+
+sender_picture
+
+
+3. Receive message
+
+Event: livestream-message-broadcast
+
+Response: 
+
+viewer_id
+
+live_video_id
+
+live_user_id
+
+message
+
+sender_name
+
+sender_username
+
+sender_picture
+
+
+4. Live streaming updates
+
+Event: livestream-updates
+
+
+5. Viewer Join 
+
+Event: livestream-join
+
+Parameters: 
+
+viewer_id
+
+live_video_id
+
+live_user_id
+
+
+6. Close/Exit from live video
+
+Event: exit-livestream
+
+viewer_id
+
+live_video_id
+
+live_user_id
+
+
